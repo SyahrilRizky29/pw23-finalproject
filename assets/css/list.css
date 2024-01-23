@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #dfb887;
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+img {
+    width: 250px;
+    height: 175px;
+    border-radius: 3px;
+    float: left;
+    margin-right: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: block;
+    background-color: antiquewhite;
+    width: 1000px;
+    padding: 22px 30px;
+    border-radius: 5px;
+    line-height: 1.8;
+    margin: 10px 0;
+}
+
+/* h1, h2 {
+    text-align: right;
+} */
+
+p {
+    text-align: justify;
+}
+
+/* Bagian agar muncul read */
+#ch {
+    display: none;
+}
+
+#ch:checked ~ .content {
+    display: block;
+}
+
+#ch:checked ~ label {
+    display: none;
+}
+
+#ch2 {
+    display: none;
+}
+
+#ch2:checked ~ .content {
+    display: block;
+}
+
+#ch2:checked ~ label {
+    display: none;
+}
+
+#ch3 {
+    display: none;
+}
+
+#ch3:checked ~ .content {
+    display: block;
+}
+
+#ch3:checked ~ label {
+    display: none;
+}
+
+#ch4 {
+    display: none;
+}
+
+#ch4:checked ~ .content {
+    display: block;
+}
+
+#ch4:checked ~ label {
+    display: none;
+}
+
+#ch5 {
+    display: none;
+}
+
+#ch5:checked ~ .content {
+    display: block;
+}
+
+#ch5:checked ~ label {
+    display: none;
+}
+
+#ch6 {
+    display: none;
+}
+
+#ch6:checked ~ .content {
+    display: block;
+}
+
+#ch6:checked ~ label {
+    display: none;
+}
+
+#ch7 {
+    display: none;
+}
+
+#ch7:checked ~ .content {
+    display: block;
+}
+
+#ch7:checked ~ label {
+    display: none;
+}
+
+#ch8 {
+    display: none;
+}
+
+#ch8:checked ~ .content {
+    display: block;
+}
+
+#ch8:checked ~ label {
+    display: none;
+}
+
+#ch9 {
+    display: none;
+}
+
+#ch9:checked ~ .content {
+    display: block;
+}
+
+#ch9:checked ~ label {
+    display: none;
+}
+
+#ch10 {
+    display: none;
+}
+
+#ch10:checked ~ .content {
+    display: block;
+}
+
+#ch10:checked ~ label {
+    display: none;
+}
+/* Selesai */
+
+.content {
+    display: none;
+}
+
+
+label {
+    display: flex;
+    justify-content: center;
+    float: right;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(226, 168, 97);
+    padding: 3px 13px;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+
+label:hover {
+    background-color:#d68626;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+
+    .card img {
+        margin-bottom: 10px;
+    }
+}
